@@ -4,14 +4,14 @@ import SubDivisao from "./SubDivisao";
 export default function Linha(props) {
   return (
     <div className={style.linha}>
-      <SubDivisao />
-      <SubDivisao preta />
-      <SubDivisao />
-      <SubDivisao preta />
-      <SubDivisao />
-      <SubDivisao preta />
-      <SubDivisao />
-      <SubDivisao preta />
+      <SubDivisao preta={props.preta} />
+      <SubDivisao preta={!props.preta} />
+      <SubDivisao preta={props.preta} />
+      <SubDivisao preta={!props.preta} />
+      <SubDivisao preta={props.preta} />
+      <SubDivisao preta={!props.preta} />
+      <SubDivisao preta={props.preta} />
+      <SubDivisao preta={!props.preta} />
     </div>
   );
 }
