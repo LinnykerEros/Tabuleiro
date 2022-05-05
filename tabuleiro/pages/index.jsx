@@ -1,9 +1,11 @@
 import styles from "../styles/Home.module.css";
 import SubDivisao from "../components/SubDivisao";
+import Linha from "../components/Linha";
+
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SubDivisao />
+      <Linha />
     </div>
   );
 }
